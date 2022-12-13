@@ -16,8 +16,8 @@ const styles = {
  function StoreList(props) {
    return(
       <ul style={styles.ul}>
-         { props.todos.map((todo, index) =>{
-            return<StoreItem todo={todo} key={todo.id} index={index}/>
+         {props.product.map((produc, index,)  =>{
+            return<StoreItem  className="home" produc={produc} key={produc.id}  index={index}/>
          }) }
       </ul>
    )

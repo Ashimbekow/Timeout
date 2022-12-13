@@ -19,7 +19,7 @@ h1{
   font-size: 50px;
 }
 li{
-  font-size: 40px;
+  font-size: 30px;
 }
 img{
   display: block;
@@ -41,10 +41,6 @@ img:hover {
 .rebook{
   top: -755px;
   left: 870px;
-}
-.type{
-  color: rgb(255, 0, 25);
-  font-size: 25px;
 }
 .script{
   font-size: 14px;
